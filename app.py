@@ -33,7 +33,7 @@ def point_map(data, color, scale=None, rng=None, hover=None):
         data, lat="latitude", lon="longitude", color=color,
         color_continuous_scale=scale, range_color=rng,
         color_discrete_map=LEVEL_COLORS, category_orders={color: LEVELS},
-        hover_data=hover, zoom=10.3, height=620, map_style="carto-positron", opacity=0.85,
+        hover_data=hover, center=dict(lat=23.02, lon=72.57), zoom=10.3, height=620,
     )
     fig.update_traces(marker=dict(size=4))
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
