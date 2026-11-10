@@ -1,0 +1,7 @@
+model,split,MAE (°C),RMSE (°C),R²,R² std
+Mean only (baseline),Random 5-fold,2.367,3.203,-0.0,0.0
+Mean only (baseline),Spatial 5-fold (3 km blocks),2.385,3.203,-0.048,0.045
+Linear Regression,Random 5-fold,1.469,1.874,0.657,0.006
+Linear Regression,Spatial 5-fold (3 km blocks),1.487,1.895,0.622,0.073
+Random Forest,Random 5-fold,1.387,1.79,0.687,0.005
+Random Forest,Spatial 5-fold (3 km blocks),1.412,1.817,0.652,0.072
